@@ -33,9 +33,8 @@ func (app *application) showSnippet(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	s := models.Snippet{}
-
-	if err = app.snippets.Find(id, &s); err != nil {
+	s, err := app.snippets.Get(id)
+	if err != nil {
 		if errors.Is(err, models.ErrNoRecord) {
 			app.notFound(w)
 		} else {
@@ -45,7 +44,7 @@ func (app *application) showSnippet(w http.ResponseWriter, r *http.Request) {
 	}
 
 	app.render(w, r, "show.page.tmpl", &templateData{
-		Snippet: &s,
+		Snippet: s,
 	})
 }
 

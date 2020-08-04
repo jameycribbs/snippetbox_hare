@@ -123,3 +123,13 @@ func (snippets *Snippets) Insert(title, content, expires string) (int, error) {
 
 	return id, nil
 }
+
+func (snippets *Snippets) Get(id int) (*Snippet, error) {
+	s := Snippet{}
+
+	if err := snippets.Find(id, &s); err != nil {
+		return nil, err
+	}
+
+	return &s, nil
+}
