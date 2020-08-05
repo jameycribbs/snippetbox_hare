@@ -4,6 +4,8 @@ github.com/golangcollege/sessions v1.2.0 h1:2aD9jac/N8NC/y+NEoirYMGlYymzS0ZQN6AS
 github.com/golangcollege/sessions v1.2.0/go.mod h1:7iTf/FrZku0hWyjV95lES7abH89WBlyBjPyA1htnuks=
 github.com/jameycribbs/hare v0.5.0 h1:j0VcZBVBt6d9Y+6d44K1Z1vHnXGrW55rJdNcYyAbX50=
 github.com/jameycribbs/hare v0.5.0/go.mod h1:OifWcte1ShTXOKTYQ1/H2qEi5sEuvX4kJSHVTdq9uPI=
+github.com/jameycribbs/hare v0.5.1 h1:DsWzQoipOGcmUuk0YuVc+BBYjh3SErGp3sWme47skKA=
+github.com/jameycribbs/hare v0.5.1/go.mod h1:OifWcte1ShTXOKTYQ1/H2qEi5sEuvX4kJSHVTdq9uPI=
 github.com/justinas/alice v1.2.0 h1:+MHSA/vccVCF4Uq37S42jwlkvI2Xzl7zTPCN5BnZNVo=
 github.com/justinas/alice v1.2.0/go.mod h1:fN5HRH/reO/zrUflLfTN43t3vXvKzvZIENsNEe7i7qA=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
